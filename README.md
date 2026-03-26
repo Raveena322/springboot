@@ -148,15 +148,10 @@ Response (200 OK):
 
 ## 🖼️ Screenshots
 
+![POST /api/students example](https://raw.githubusercontent.com/Raveena322/springboot/master/docs/post-student.png)
+![GET /api/students example](https://raw.githubusercontent.com/Raveena322/springboot/master/docs/get-students.png)
 
-
-<img src = "Rest-Api\src\Screenshot 2026-03-26 081512.png" alt = "page failed to load">
-<img src = "Rest-Api\src\Screenshot 2026-03-26 081527.png" alt = "page failed to load">
-
-``
-
-
-## 🧪 Testing
+---
 
 Run unit and integration tests:
 
