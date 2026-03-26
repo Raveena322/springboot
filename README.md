@@ -85,18 +85,76 @@ http://localhost:8080/api
 
 ### Sample Endpoints
 
-| Method | Endpoint          | Description         |
-| ------ | ----------------- | ------------------- |
-| GET    | `/`               | Welcome message     |
-| GET    | `/resources`      | Get all resources   |
-| GET    | `/resources/{id}` | Get resource by ID  |
-| POST   | `/resources`      | Create new resource |
-| PUT    | `/resources/{id}` | Update resource     |
-| DELETE | `/resources/{id}` | Delete resource     |
+| Method | Endpoint               | Description         |
+| ------ | ---------------------- | ------------------- |
+| GET    | `/`                    | Welcome message     |
+| GET    | `/resources`           | Get all resources   |
+| GET    | `/resources/{id}`      | Get resource by ID  |
+| POST   | `/resources`           | Create new resource |
+| PUT    | `/resources/{id}`      | Update resource     |
+| DELETE | `/resources/{id}`      | Delete resource     |
+| POST   | `/students`            | Add a student       |
+| GET    | `/students`            | List all students   |
 
 > 📌 Update these endpoints based on your actual implementation.
 
 ---
+
+## 🧾 Example Student API Usage
+
+Base student endpoint:
+
+```
+http://localhost:8080/api/students
+```
+
+### Create a student (POST)
+
+Request body (JSON):
+
+```json
+{
+  "id": 1,
+  "name": "Raveena",
+  "course": "CSe"
+}
+```
+
+Response (200 OK):
+
+```json
+{
+  "course": "CSe",
+  "id": 1,
+  "name": "Raveena"
+}
+```
+
+### List students (GET)
+
+Response (200 OK):
+
+```json
+[
+  {
+    "course": "CSe",
+    "id": 1,
+    "name": "Raveena"
+  }
+]
+```
+
+---
+
+## 🖼️ Screenshots
+
+
+
+<img src = "Rest-Api\src\Screenshot 2026-03-26 081512.png" alt = "page failed to load">
+<img src = "Rest-Api\src\Screenshot 2026-03-26 081527.png" alt = "page failed to load">
+
+``
+
 
 ## 🧪 Testing
 
