@@ -150,6 +150,8 @@ Response (200 OK):
 
 ![POST /api/students example](https://raw.githubusercontent.com/Raveena322/springboot/master/docs/post-student.png)
 ![GET /api/students example](https://raw.githubusercontent.com/Raveena322/springboot/master/docs/get-students.png)
+![PUT /api/students/1 example](https://raw.githubusercontent.com/Raveena322/springboot/master/docs/put-student.png)
+![DELETE /api/students/1 example](https://raw.githubusercontent.com/Raveena322/springboot/master/docs/delete-student.png)
 
 ---
 
